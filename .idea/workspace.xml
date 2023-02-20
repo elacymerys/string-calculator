@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1700c956-3c9d-473e-b927-28f6aa02e993" name="Changes" comment="Add tests for simple functionality">
+    <list default="true" id="1700c956-3c9d-473e-b927-28f6aa02e993" name="Changes" comment="Refactor tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/calculator/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/calculator/StringCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/StringCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,20 @@
       <recent name="org.example.calculator" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="string-calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="string-calculator" />
       <extension name="coverage">
@@ -79,6 +91,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676893202956</updated>
-      <workItem from="1676893205359" duration="2455000" />
+      <workItem from="1676893205359" duration="3457000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1676893294031</created>
@@ -106,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676895234564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactor tests">
+      <created>1676895885458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676895885458</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Add tests for simple functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests for simple functionality" />
+    <MESSAGE value="Refactor tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor tests" />
   </component>
 </project>

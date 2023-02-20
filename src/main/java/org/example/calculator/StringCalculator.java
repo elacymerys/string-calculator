@@ -2,7 +2,7 @@ package org.example.calculator;
 
 public class StringCalculator implements Calculator {
 
-    public String add(String number) {
-        return null;
+    public int add(String number) {
+        return 0;
     }
 }
