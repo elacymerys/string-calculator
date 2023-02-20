@@ -2,5 +2,5 @@ package org.example.calculator;
 
 public interface Calculator {
 
-    int add(String number);
+    int add(String numbers);
 }
