@@ -36,4 +36,10 @@ public class StringCalculatorTest {
         int result = calculator.add("1,2,3");
         assertThat(result).isEqualTo(6);
     }
+
+    @Test
+    public void shouldReturnSumWhenManyNumbersGiven() {
+        int result = calculator.add("1,2,3,4,5");
+        assertThat(result).isEqualTo(15);
+    }
 }
