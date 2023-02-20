@@ -42,4 +42,10 @@ public class StringCalculatorTest {
         int result = calculator.add("1,2,3,4,5");
         assertThat(result).isEqualTo(15);
     }
+
+    @Test
+    public void shouldSumNumbersWhenDifferentSeparatorsGiven() {
+        int result = calculator.add("1\n2,3");
+        assertThat(result).isEqualTo(6);
+    }
 }
