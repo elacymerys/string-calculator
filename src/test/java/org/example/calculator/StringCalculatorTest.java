@@ -1,41 +1,39 @@
 package org.example.calculator;
 
+import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-// "" -> "0"
-// "1" -> "1"
-// "1.1,2.2" -> "3.3"
+import static org.assertj.core.api.Assertions.*;
 
 public class StringCalculatorTest {
+    StringCalculator calculator;
+
+    @Before
+    public void setUp() {
+        calculator = new StringCalculator();
+    }
 
     @Test
     public void shouldReturnZeroWhenEmptyStringGiven() {
-        StringCalculator calculator = new StringCalculator();
         String result = calculator.add("");
-        assertEquals("0", result);
+        assertThat(result).isEqualTo("0");
     }
 
     @Test
     public void shouldReturnThatNumberWhenSingleNumberGiven() {
-        StringCalculator calculator = new StringCalculator();
         String result = calculator.add("1");
-        assertEquals("1", result);
+        assertThat(result).isEqualTo("1");
     }
 
     @Test
     public void shouldReturnSumWhenTwoNumbersGiven() {
-        StringCalculator calculator = new StringCalculator();
         String result = calculator.add("1.1,2.2");
-        assertEquals("3.3", result);
+        assertThat(result).isEqualTo("3.3");
     }
 
     @Test
     public void shouldReturnSumWhenThreeNumbersGiven() {
-        StringCalculator calculator = new StringCalculator();
         String result = calculator.add("1.1,2.2,5");
-        assertEquals("8.3", result);
+        assertThat(result).isEqualTo("8.3");
     }
-
 }
