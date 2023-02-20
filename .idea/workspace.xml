@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1700c956-3c9d-473e-b927-28f6aa02e993" name="Changes" comment="Limit numbers to integers">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/calculator/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/calculator/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +92,8 @@
       <list>
         <item itemvalue="JUnit.StringCalculatorTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676897030264</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add tests for many numbers">
+      <created>1676897508904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676897508904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +164,7 @@
     <MESSAGE value="Add tests for simple functionality" />
     <MESSAGE value="Refactor tests" />
     <MESSAGE value="Limit numbers to integers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Limit numbers to integers" />
+    <MESSAGE value="Add tests for many numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests for many numbers" />
   </component>
 </project>
